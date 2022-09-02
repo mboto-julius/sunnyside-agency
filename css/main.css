@@ -20,6 +20,11 @@
     --grayish-blue: hsl(210, 4%, 67%);
     --white: hsl(0, 0%, 100%);
     --dark-blue-color:hsl(197, 100%, 57%);
+    --black-color:#000;
+  }
+
+  .fraunces-font-family{
+    font-family: 'Fraunces', serif;
   }
 
   a {
@@ -86,7 +91,7 @@
 
   /* ----- hero section ----- */
   .head-section{
-    height: 80vh;
+    height: 88vh;
     position: relative;
     overflow: hidden;
   }
@@ -112,7 +117,7 @@
   }
 
   .head-description p{
-    font-family: 'Fraunces', serif;
+    letter-spacing: 10px;
     font-size: 46px;
   }
 
@@ -127,6 +132,67 @@
     height: 90px;
     width: 18px;
   }
+
+  .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0;
+  }
+
+  .col-two img{
+    width: 100%;
+  }
+
+  .col-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 26px 0;
+    padding: 0 12%;
+  }
+
+  .col-one h1{
+    font-size: 50px;
+  }
+
+  .col-one p{
+    font-size: 20px;
+  }
+
+  .col-one a{
+    color: var(--black-color);
+    font-size: 16px;
+  }
+
+
+  .col-1 img, .col-2 img{
+    width: 100%;
+  }
+
+  .col-1, .col-2{
+    position: relative;
+  }
+
+  .description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    text-align: center;
+    padding: 0 16%;
+    bottom: 60px;
+  }
+
+  .description h1{
+    font-size: 30px;
+  }
+
+  .description p{
+    font-size: 22px;
+  }
+  
+  
 
 
   
