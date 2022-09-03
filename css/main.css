@@ -10,7 +10,9 @@
 
 :root {
     --soft-red: hsl(7, 99%, 70%);
+    --soft-red00: hsl(7, 87%, 75%);
     --yellow: hsl(51, 100%, 49%);
+    --yellow-one:hsl(51, 97%, 74%);;
     --dark-desaturated-cyan: hsl(167, 40%, 24%);
     --dark-blue : hsl(198, 62%, 26%);
     --dark-moderate-cyan: hsl(168, 39%, 62%);
@@ -20,6 +22,7 @@
     --grayish-blue: hsl(210, 4%, 67%);
     --white: hsl(0, 0%, 100%);
     --dark-blue-color:hsl(197, 100%, 57%);
+    --dark-blue-hover:hsl(197, 100%, 75%);
     --black-color:#000;
   }
 
@@ -71,6 +74,11 @@
     padding: 8px 16px;
     border-radius: 20px;
     color: var(--very-dark-grayish-blue);
+  }
+
+  .contact-link:hover{
+    background-color: var(--dark-blue-hover);
+    color: var(--white);
   }
       
   /* ----- navigation for mobile (hidden for desktop view) ----- */
@@ -245,6 +253,39 @@
     gap: 10px;
   }
 
+  .link-one, .link-two{
+    position: relative;
+  }
+
+  .link-one::after{
+    background-color: var(--yellow-one);
+  }
+
+  .link-two::after{
+    background-color: var(--soft-red00);
+
+  }
+
+  .link-one:hover::after{
+    background-color: var(--yellow);
+  }
+
+  .link-two:hover::after{
+    background-color: var(--soft-red);
+  }
+
+  .link-one::after, .link-two::after {
+    content: "";
+    display: block;
+    width: 130px;
+    left: -8%;
+    top: 60%;
+    height: 12px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: -1;
+  }
+
   /* ----- gallery section ----- */
   .gallery-row{
     display: grid;
@@ -284,9 +325,35 @@
     color: var(--dark-desaturated-cyan);
   }
 
+  .footer-link a:hover{
+    color: var(--white) !important;
+  }
+
+  .icon{
+    color: var(--dark-desaturated-cyan);
+    font-size: 24px;
+  }
+
+  .icon:hover{
+    color: var(--white);
+  }
+
   .social-icon{
     display: flex;
     gap: 0 20px;
+  }
+
+  .company-name h1{
+    font-size: 40px;
+  }
+
+  .attribution{
+    padding-top: 40px;
+  }
+
+  .attribution a{
+    color: var(--black-color);
+    text-decoration: underline;
   }
 
   
