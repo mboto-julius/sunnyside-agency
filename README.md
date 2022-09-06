@@ -40,15 +40,9 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### Continued development
 
 Planning to redesign this project on mobile devives since some images doesnt look well on that devices!!!
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
