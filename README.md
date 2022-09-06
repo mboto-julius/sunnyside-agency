@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mboto-julius/sunnyside-agency)
-- Live Site URL: [Add live site URL here](https://jnm-sunnyside.netlify.app/)
+- Solution URL: [Github](https://github.com/mboto-julius/sunnyside-agency)
+- Live Site URL: [jnm-sunnyside.netlify.app](https://jnm-sunnyside.netlify.app/)
 
 ## My process
 
